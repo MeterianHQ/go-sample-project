@@ -16,4 +16,4 @@ jobs:
                 MGA_GITHUB_USER: ${{ secrets.MGA_GITHUB_USER }}
                 MGA_GITHUB_TOKEN: ${{ secrets.MGA_GITHUB_TOKEN }}
             with:
-                cli_args: "" #[ Meterian CLI Options ]
+                cli_args: "--debug" #[ Meterian CLI Options ]
