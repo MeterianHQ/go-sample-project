@@ -19,6 +19,6 @@ jobs:
                 MGA_BITBUCKET_APP_PASSWORD: ${{ secrets.MGA_BITBUCKET_APP_PASSWORD }}
                 MGA_GITLAB_USER: "n-insaidoo"
                 MGA_GITLAB_TOKEN: ${{ secrets.MGA_GITLAB_TOKEN }}
-                GOPRIVATE: "github.com/n-insaidoo"
+                GOPRIVATE: "github.com/n-insaidoo,bitbucker.org/n-insaidoo,gitlab.com/n-insaidoo"
             with:
-                cli_args: "" #[ Meterian CLI Options ]
+                cli_args: "--debug" #[ Meterian CLI Options ]
