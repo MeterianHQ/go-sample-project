@@ -20,6 +20,6 @@ jobs:
                 MGA_GITLAB_USER: "n-insaidoo"
                 MGA_GITLAB_TOKEN: ${{ secrets.MGA_GITLAB_TOKEN }}
                 GOPRIVATE: "github.com/n-insaidoo,bitbucket.org/n-insaidoo,gitlab.com/n-insaidoo"
-                CLIENT_CANARY_FLAG: "--canary"
+                #CLIENT_CANARY_FLAG: "--canary"
             with:
                 cli_args: "--debug" #[ Meterian CLI Options ]
