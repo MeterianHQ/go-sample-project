@@ -7,6 +7,11 @@
           "uuid": "ab3926bc-4901-47a3-837d-65c820e7623e",
           "reason": "unapplicable",
           "description": "We are not affected by this specific issue"
+        },
+        {
+          "uuid": "a8e7bc8c-d013-458b-91cf-5403b5040cf4",
+          "reason": "unapplicable",
+          "description": "We are not affected by this specific issue"
         }
       ],
       "libraries": []
