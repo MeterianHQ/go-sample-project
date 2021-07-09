@@ -1,7 +1,13 @@
 {
   "exclusions": {
     "security": {
-      "cves": [],
+      "cves": [
+        {
+          "cve": "CVE-2020-8908",
+          "description": "Excluded at the account level",
+          "reason": "unapplicable"
+        }
+      ],
       "advices": [
         {
           "uuid": "ab3926bc-4901-47a3-837d-65c820e7623e",
@@ -12,15 +18,92 @@
           "uuid": "a8e7bc8c-d013-458b-91cf-5403b5040cf4",
           "reason": "unapplicable",
           "description": "We are not affected by this specific issue"
+        },
+        {
+          "uuid": "ae12bbed-5875-3e85-ab5a-54debb42134e",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
+        },
+        {
+          "uuid": "b6b0f2f9-76bc-33bc-b4e6-a70493baa306",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
+        },
+        {
+          "uuid": "d6a2a957-e73b-48bb-b476-4b91e0e60b31",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
+        },
+        {
+          "uuid": "47daaba8-19ed-45f5-91e9-c4334a1da6dd",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
+        },
+        {
+          "uuid": "0c7c1606-6553-4450-be34-cc605433b7cf",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
+        },
+        {
+          "uuid": "6d194fd0-17c7-4c2c-b27a-bcbffbb8c81e",
+          "reason": "unapplicable",
+          "description": "Excluded at the account level"
         }
       ],
-      "libraries": []
+      "libraries": [
+        {
+          "library": {
+            "name": "gopkg.in/yaml.v2",
+            "language": "golang"
+          },
+          "version": "v2.2.2",
+          "description": "We are not affected by this specific issue",
+          "reason": "unapplicable"
+        },
+        {
+          "library": {
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "language": "java"
+          },
+          "version": "2.8.11.6",
+          "description": "Excluded at the account level",
+          "reason": "unapplicable"
+        },
+        {
+          "library": {
+            "name": "jquery",
+            "language": "javascript"
+          },
+          "version": "1.2.3",
+          "description": "Excluded at the account level",
+          "reason": "unapplicable"
+        }
+      ]
     },
     "stability": {
       "libraries": []
     },
     "licensing": {
-      "libraries": []
+      "libraries": [
+        {
+          "library": {
+            "name": "github.com/MeterianHQ/go-sample-project",
+            "language": "golang"
+          },
+          "version": "*",
+          "description": "Excluded by account whitelisting",
+          "reason": "unapplicable"
+        },
+        {
+          "library": {
+            "name": "github.com/MeterianHQ/go-sample-dependency",
+            "language": "golang"
+          },
+          "version": "*",
+          "description": "Excluded by account whitelisting",
+          "reason": "unapplicable"
+        }
+      ]
     }
   }
 }
